@@ -46,3 +46,5 @@ df_result = pd.read_csv("/content/ufc_fight_results.csv")
 df_tott = pd.read_csv("/content/ufc_fighter_tott.csv")
 df_event = pd.read_csv("/content/ufc_event_details.csv")
 df_result4 = pd.read_csv("/content/df_result4.csv")
+
+
