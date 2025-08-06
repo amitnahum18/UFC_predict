@@ -1,11 +1,9 @@
 #  UFC Fight Prediction (Accuracy: 76.4%)
-
+---
 This project predicts the outcomes of UFC fights using scraped fight statistics and a pre-trained model.
 
-##  Accuracy
-✅ Model Accuracy: **76.4%**
 
----
+
 
 ##  Requirements
 
@@ -40,12 +38,12 @@ Make sure to update the file paths in the code to match the location of your CSV
 ```python
 import pandas as pd
 
-df_stat_fighter = pd.read_csv("/content/ufc_fight_stats.csv")
-# df_main = pd.read_csv("/content/ufc_fight_details.csv")  # optional
-df_result = pd.read_csv("/content/ufc_fight_results.csv")
-df_tott = pd.read_csv("/content/ufc_fighter_tott.csv")
-df_event = pd.read_csv("/content/ufc_event_details.csv")
-df_result4 = pd.read_csv("/content/df_result4.csv")
+df_stat_fighter = pd.read_csv("ufc_fight_stats.csv")
+# df_main = pd.read_csv("ufc_fight_details.csv")  # optional
+df_result = pd.read_csv("ufc_fight_results.csv")
+df_tott = pd.read_csv("ufc_fighter_tott.csv")
+df_event = pd.read_csv("ufc_event_details.csv")
+df_result4 = pd.read_csv("df_result4.csv")
 ```
 
 ⚠️ Important Notes:
